@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catharsis - A Safe Space to Talk</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #ffeef2;
+            color: #5a3d5c;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #ffcad4;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #d94a8c;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        .heart {
+            color: #ff4d6d;
+            font-size: 1.5rem;
+        }
+
+        .sparkle {
+            color: #e068bd;
+            font-size: 1.2rem;
+        }
+
+        .content {
+            background-color: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .note {
+            background-color: #ffe5f1;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #ff4d6d;
+        }
+
+        .booking {
+            background-color: #ffcad4;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #d94a8c;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        li:before {
+            content: "♥";
+            color: #ff4d6d;
+            position: absolute;
+            left: 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 15px;
+            color: #d94a8c;
+            font-size: 0.9rem;
+        }
+
+        .cta {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #ff4d6d;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(255, 77, 109, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(255, 77, 109, 0.4);
+        }
+
+        .icon {
+            font-size: 1.2rem;
+            margin-right: 5px;
+        }
+
+        .price {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #d94a8c;
+        }
+
+        .founder {
+            font-style: italic;
+            color: #9e6b9e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Catharsis <span class="heart">❤</span></h1>
+            <div class="tagline">A safe space for self-expression and healing</div>
+            <div><span class="sparkle">✨</span> Where words heal <span class="sparkle">✨</span></div>
+        </header>
+
+        <div class="content">
+            <p>Catharsis is a small initiative where we try to create a safe space for people to express themselves <span class="heart">❤</span>. We embrace healing through talking as a form of self-expression and are building a community for all those who wish to share their stories and experiences with us.</p>
+
+            <p class="founder"><span class="sparkle">✨</span> Founded by Khushi Gehani, Catharsis is a space to just talk, so come book an hour with us and share all your stories, feelings, and thoughts with us - your own Mitras.</p>
+
+            <div class="note">
+                <p><strong>Please note:</strong> We aren't Therapists or Professionals. We are just a bunch of youngsters trying to battle against loneliness, bottled up emotions, numbness, misunderstood feelings, or just people who want to talk.</p>
+            </div>
+
+            <div class="cta">
+                <div class="price">Just Rs.49 per session</div>
+                <p>One hour of undivided attention and genuine connection</p>
+            </div>
+        </div>
+
+        <div class="booking">
+            <h2>Book Your Session With Us</h2>
+            <ul>
+                <li>DM us on LinkedIn</li>
+                <li>DM us on Instagram @ Catharsis.k</li>
+                <li>Contact us on +91 6352023152</li>
+            </ul>
+
+            <div class="cta">
+                <a href="#" class="button"><span class="icon">✉</span> Book Now</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Keep smiling, Keep sharing <span class="heart">❤</span></p>
+            <p>Thank you so much for reading, hope you all have a nice day <span class="heart">❤</span><span class="sparkle">✨</span></p>
+        </div>
+    </div>
+</body>
+</html>
